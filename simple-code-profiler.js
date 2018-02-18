@@ -70,7 +70,9 @@ module.exports = foo = function (label) {
         return {
             start: function () {
             },
-            end: function () {
+            record: function () {
+            },
+            print: function () {
             }
         }
     } else {
